@@ -1,4 +1,4 @@
-# Terminal Color Codes
+# Terminal Color Codes (NodeJS)
 An object to smoothly use color codes on the Terminal, just use the color codes like this:
 ```javascript
 console.log( C["&a"] + C["&l"] + "Lorem ipsum dolor sit amet" + C["&r"] )
