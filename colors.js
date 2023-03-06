@@ -16,21 +16,23 @@ const C = { // ( Colors )
   "&7": "\x1b[38;2;170;170;170m",
   "&f": "\x1b[38;2;255;255;255m",
   
-  "&r": "\x1b[0m", // reset r
-  reset: "\x1b[0m", // &r
-  "&n": "\x1b[4m", // underscore n
-  "&o": "\x1b[3m", // italic - o
-  "&m": "\x1b[9m", // strikethrough - m
-
-  "&l": "\x1b[1m", // bold l
-  bold: "\x1b[1m", // &l
-  background: "\x1b[7m", // background
+  reset: "\x1b[0m",
+  "&r": "\x1b[0m", // reset
+  underscore: "\x1b[4m",
+  underline: "\x1b[4m",
+  "&n": "\x1b[4m", // underscore
+  "&u": "\x1b[4m", // underscore
+  strikethrough: "\x1b[9m",
+  "&str": "\x1b[9m", // strikethrough
+  "&m": "\x1b[9m", // strikethrough
+  "&s": "\x1b[9m", // strikethrough
+  background: "\x1b[7m",
   "&bg": "\x1b[7m", // background
-  hidden: "\x1b[8m", // hidden
-  "&h": "\x1b[8m", // hidden - &h
-  italic: "\x1b[3m", // italic
+  bold: "\x1b[1m",
+  "&l": "\x1b[1m", // bold
+  hidden: "\x1b[8m",
+  "&h": "\x1b[8m", // hidden
+  italic: "\x1b[3m",
+  "&o": "\x1b[3m", // italic
   "&i": "\x1b[3m", // italic
-  strikethrough: "\x1b[9m", // strikethrough - &m
-  "&str": "\x1b[9m", // strikethrough - &m
-  underscore: "\x1b[4m", // &n
 }
