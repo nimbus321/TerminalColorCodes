@@ -58,9 +58,9 @@ To use them, just put the code like this `C["CODE"]`
 | Tag, o Key                      | JavaScript  | Result                                  |  Notes      |
 | :------------                   | :-------------  | :---:                                   | :---: 
 | `&r` or `reset`                 | C["&r"]   |  ![reset][lorem reset]                        | Resets all previews formats and color
-| `&n`, `&u` or `underscore`            | C["&n"]   |  ![underscore][lorem underscore]              | 
+| `&n`, `&u`, `&sub` or `underscore`            | C["&n"]   |  ![underscore][lorem underscore]              | 
 | `&o`, `&i` or `italic`          | C["&o"]   |  ![italic][lorem italic]                      | 
-| `&m`, `s`, `&str` or `strikethrough` | C["&m"]   |  ![strikethrough][lorem strikethrough]        | 
+| `&m`, `&s`, `&str` or `strikethrough` | C["&m"]   |  ![strikethrough][lorem strikethrough]        | 
 | `&l` or `bold`                  | C["&l"]   |  ![bold][lorem bold]                          | 
 | `&h` or `hidden`                | C["&h"]   |  ![&h][lorem hidden]                          | The text can still be copied, and is rendered but invisible.
 | `&bg` or `background`           | C["&bg"]  |  ![background][lorem background]              | The color of the background can change if you specify it after the `&bg` code, examples below
