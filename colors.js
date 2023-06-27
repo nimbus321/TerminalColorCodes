@@ -22,6 +22,7 @@ const C = { // ( Colors )
   underline: "\x1b[4m",
   "&n": "\x1b[4m", // underscore
   "&u": "\x1b[4m", // underscore
+  "&sub": "\x1b[4m", // underscore
   strikethrough: "\x1b[9m",
   "&str": "\x1b[9m", // strikethrough
   "&m": "\x1b[9m", // strikethrough
